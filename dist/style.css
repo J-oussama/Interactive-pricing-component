@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  background: url(images/pattern-circles.svg) no-repeat center 7% fixed, url(images/bg-pattern.svg) top fixed;
+  background: url(../images/pattern-circles.svg) no-repeat center 7% fixed, url(../images/bg-pattern.svg) top fixed;
   background-size: 7rem, 100% 45%;
   background-repeat: no-repeat;
   height: 100vh;
