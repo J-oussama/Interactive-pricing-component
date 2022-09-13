@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="dist/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/bg-pattern.svg"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/style.css" />
+    <!-- google fonts  -->
+    <script defer src="main.js"></script>
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"
+      integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css"
+      integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font aws -->
+  </head>
+  <body>
+    <!-- Simple, traffic-based pricing
+  Sign-up for our 30-day trial. No credit card required. 
+  Pageviews
+  $ /month
+
+  Monthly Billing
+  Yearly Billing 25% discount
+
+  Unlimited websites
+  100% data ownership
+  Email reports
+  style.css
+
+  Start my trial
+   -->
+    <h2 class="header">Simple, traffic-based pricing</h2>
+    <p class="body-title">
+      Sign-up for our 30-day trial, No credit card required.
+    </p>
+    <div class="main">
+      <div class="main__header">
+        <p class="main__header--title p-16">100k PAGEVIEWS</p>
+
+        <h3 class="pricing">$16.00 <span class="month p-16">/month</span></h3>
+      </div>
+
+      <!-- main header end  -->
+      <div class="input-bar">
+        <input type="range" name="range" id="range" min="0" max="100" />
+      </div>
+
+      <!-- input bar ( range) end -->
+      <div class="main__body">
+        <p class="m-billing p-16">Monthly Billing</p>
+        <label for="myToggle" class="toggle">
+          <input
+            type="checkbox"
+            name="toggle"
+            id="myToggle"
+            class="toggle__input"
+          />
+          <div class="toggle__fill"></div>
+        </label>
+        <p class="y-billing p-16">Yearly Billing</p>
+        <p class="discount">25% discount</p>
+      </div>
+      <!-- main body end -->
+      <div class="line"></div>
+      <!--the line end  -->
+      <div class="footer">
+        <div class="penfit">
+          <p class="penfit__text">
+            <img src="images/icon-check.svg" alt="check icon" />
+            Unlimited websites
+          </p>
+          <p class="penfit__text">
+            <img src="images/icon-check.svg" alt="check icon" />
+            100% data ownership
+          </p>
+          <p class="penfit__text">
+            <img src="images/icon-check.svg" alt="check icon" />
+            Email reports
+          </p>
+        </div>
+        <!-- penfit end -->
+        <div class="btn-div">
+          <button class="btn">start my trial</button>
+        </div>
+      </div>
+      <!-- footer end -->
+    </div>
+    <!-- main end -->
+  </body>
+</html>
+<!-- style.css -->
