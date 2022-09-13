@@ -172,7 +172,6 @@ input[type=range]::-webkit-slider-thumb:active, input[type=range]::-webkit-slide
   transition: all 0.2s 0s;
   position: relative;
 }
-
 .toggle__fill::after {
   content: "";
   height: calc(var(--height) - var(--top));
